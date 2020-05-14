@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+body {
+    background: -webkit-linear-gradient(70deg, rgb(30, 79, 197)  30%, rgba(0,0,0,0) 30%), -webkit-linear-gradient(30deg, rgb(34, 95, 238) 60%, rgb(33, 59, 123) 60%);
+    background: -o-linear-gradient(70deg, rgb(30, 79, 197)  30%, rgba(0,0,0,0) 30%), -o-linear-gradient(30deg, rgb(34, 95, 238) 60%, rgb(33, 59, 123) 60%);
+    background: -moz-linear-gradient(70deg, rgb(30, 79, 197)  30%, rgba(0,0,0,0) 30%), -moz-linear-gradient(30deg, rgb(34, 95, 238) 60%, rgb(33, 59, 123) 60%);
+    background: linear-gradient(70deg, rgb(30, 79, 197)  30%, rgba(0,0,0,0) 30%), linear-gradient(30deg, rgb(34, 95, 238) 60%, rgb(33, 59, 123) 60%);  
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.main {
+    margin: 0 auto;
+    margin-top: 25vh;
+    width: 400px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-container {
+    border-radius: 8px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 30px;
+    background-color: white;
+}
+
+.form-container h2 {
+    color: rgb(33, 59, 123);
+    margin-bottom: 25px;
+}
+
+.form-input {
+    font-size: 15px;
+    height: 40px; 
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 0 10px;
+}
+
+.remember-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+.remember-container input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.submit-btn {
+    height: 40px;
+    width: 100%;
+    background-color: rgb(34, 95, 238);
+    border: 0px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.go-to-sign-link {
+    color: rgb(2, 21, 70);
+    font-weight: 800;
+}
+
+.go-to-sign-link:hover {
+    cursor: pointer;
+}
+
+.back-to-login-container {
+    color: rgb(2, 21, 70);
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+    
+}
+
+.arrow-img {
+    margin-right: 20px;
+    width: 20px;
+    height: 20px;
+}
+
+.badly-filled-form {
+    border: 2px solid red;
+    outline: none;
+}
