@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-##preview https://rafaus.000webhostapp.com/singlepage/
+##preview https://rafaus.000webhostapp.com/reactapp/
 
 
 ## Available Scripts
